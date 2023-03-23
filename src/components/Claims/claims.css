@@ -1,0 +1,153 @@
+
+#x{
+    display: flex;
+    flex-direction: row;
+}
+#nav{
+    height: 3vh;
+    width: 77%;
+    margin-left: 2rem;
+}
+#container{
+    top:3.5rem;
+    left: 20rem;
+    width:65%;
+    height: 85vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+#side1{
+    width: 35%;
+}
+#side2{
+    width:64%;
+    margin-left:-1rem;
+}
+#overlay{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: rgb(20, 28, 38);
+    opacity: 0.6;
+    
+}
+#claim-details{
+    display: flex;
+    flex-direction: row;
+    z-index: 15;
+    position: relative;
+    top:0rem;
+    left: 0rem;
+    /* width:35%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 2.5rem 1rem 1rem 2.5rem;
+    height: 12vh;
+}
+#claim-details img{
+    margin: 2vh 2.5vh 0 2.5vh;
+}
+#Patient-Details1{
+    z-index: 9;
+    position: relative;
+    top:0rem;
+    left: 0rem;
+    /* width:35%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 1rem 1rem 1rem 2.5rem;
+    height:21vh;
+}
+#name-dob1{
+    padding: 0rem 3rem 2rem 0rem;
+    display: flex;
+}
+#details1{
+    margin-top:-3rem;
+    margin-left: 0.8rem;
+}
+#doctor-details{
+    display: flex;
+    flex-direction: row;
+    z-index: 9;
+    position: relative;
+    /* width:35%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 1rem 1rem 1rem 2.5rem;
+    height: 18vh;
+}
+.dd{
+    margin:3vh 0 0 3vh;
+}
+#doctor{
+    margin:3vh 0 0 3vh;
+}
+#prior-authorization{
+    z-index: 9;
+    position: relative;
+    /* width:35%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 1rem 1rem 1rem 2.5rem;
+    height: 16.5vh;
+}
+#ppayer{
+    z-index: 9;
+    position: relative;
+    /* width:35%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 2.5rem 1rem 1rem 2.5rem;
+    height: 16.5vh;
+}
+#spayer{
+    z-index: 9;
+    position: relative;
+    /* width:35%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 1rem 1rem 1rem 2.5rem;
+    height: 16.5vh;
+}
+#bill{
+    z-index: 9;
+    position: relative;
+    /* width:35%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 1rem 1rem 1rem 2.5rem;
+    height: 16.5vh;
+}
+
+th{
+    padding: 1vh;
+}
+td{
+    padding-top: 1vh;
+    font-size: 18px;
+    text-align: center;
+}
+#table_head{
+    width: 100%;
+    background-color: rgb(20, 28, 38);
+    color: white;
+    
+    
+}
+#note{
+    z-index: 9;
+    position: relative;
+    width:91.5%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0rem 1rem 1rem 2.5rem;
+    height: 12vh;
+}
+#inp{
+    border: 0;
+    margin-left: 0.9rem;
+    font-size: 12px;
+    margin-top: -3rem;
+}

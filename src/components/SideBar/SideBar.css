@@ -1,0 +1,40 @@
+.sideBar{
+    background-color: white;
+    width: 20%;
+    height :91vh ;
+    /* position: relative; */
+    padding: 1.5rem 3rem 1rem 0.3rem;
+    /* margin: 1rem 3rem 2rem 2rem; */
+    border-radius: 10px;
+}
+.logo{
+    width: 45px;
+    height: 45px;
+    padding : 0;
+    margin-right: 6px;
+}
+.small_logo{
+    width: 20px;
+    height:20px;
+    padding: 0;
+    margin: 1rem;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 3rem 2rem 1.5rem; 
+}
+li{
+    display: flex;
+    flex-direction: row;
+}
+#sidebar_ul{
+    list-style: none;
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: -1rem;
+}
